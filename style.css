@@ -1,0 +1,259 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+body {
+    background-color: black;
+    font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    
+}
+
+
+
+ul {
+display: flex;
+font-size: 25px;
+flex-direction: row;
+justify-content: space-around;
+align-items: flex-start;
+gap: 10px;
+color: white;
+color:#FC58FF;
+list-style: none;
+font-weight: 700;
+font-size: 32px; 
+
+}
+
+
+
+form {
+    font-size: 30px;
+}
+
+hr {
+    border-color:#FC58FF;
+}
+
+form{
+    width: 270px;
+    background-color: #FC58FF;
+    padding: 30px;
+    border-radius: 50px;
+    position: relative;
+    left: 60%;
+    top: 10%;
+}
+
+input {
+    background-color:#B0FF94;
+    box-shadow: -12px 12px 11px 2px #00000040 inset;
+    color: black;
+    border: 5px solid black;
+}
+
+form legend {
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.invoice {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: row;
+    align-items:center;
+    margin-left: 100px;
+    color:#B0FF94;
+    font-size: 40px;
+    padding-bottom: 50px;
+    width: 600px;
+    font-weight: 900;
+    font-size: 64px; 
+    
+}
+
+.pinkblock {
+    color: #B0FF94;
+    background-color: #FC58FF;
+    font-weight: bold;
+    padding: 5px;
+    color: black;
+    width: 436px;
+    height: 236px;
+    margin-right: 100px;
+}
+
+
+.picture-block {
+    display: flex;
+    font-weight: 900;
+    font-size: 48px; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding: 10px;
+    width: 300px;
+    background-color: #B0FF94;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+section {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 50px;
+    position: relative;
+}
+
+.text-block {
+    background-color:#FC58FF;
+    font-weight: 700;
+    font-size: 32px; 
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    justify-content: center;
+    color: #B0FF94;
+    font-size: 35px;
+    width: 550px;
+    height: 350px;
+    border:solid;
+    border-radius: 25% 10%;
+    color: black;
+
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.legend2 {
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 48px; 
+    color: #B0FF94;
+    font-size: 40px;
+    padding-left: 290px;
+}
+
+.section3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.legend3 {
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 48px; 
+    color: #B0FF94;
+    font-size: 40px;
+    padding-left: 510px;
+}
+
+hr {
+    border-width: 2px
+}
+
+p {
+    text-align: right;
+}
+
+
+img {
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+label {
+
+    color: black;
+}
+
+legend {
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.main-block2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    width: 1288px;
+    height: 1211px;
+    padding: 81px 76px 270px 76px;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.item {
+    width: 268px;
+    height: 408px;
+}
+
+.rectangle {
+    width: 268px;
+    height: 245px;
+    border-bottom: 5px solid #B0FF94;
+    background: #FFF;
+}
+
+.text {
+    width: 268px;
+    height: 162px;
+    background: #FC58FF;
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer {
+    border-top: 5px solid #B0FF94;
+    display: flex;
+    width: 1440px;
+    height: 158px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.info {
+    width: 620px;
+    height: 72px;
+}
+
+.menu {
+    width: 93px;
+    height: 69px;
+}
+
+.contact {
+    width: 204px;
+    height: 71px;
+}
+
+.politic {
+    width: 249px;
+    height: 44px;
+}
+
