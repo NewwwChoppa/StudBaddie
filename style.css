@@ -8,7 +8,9 @@ body {
     
 }
 
-
+header {
+    border-bottom: 5px solid #FC58FF;
+}
 
 ul {
 display: flex;
@@ -25,7 +27,11 @@ font-size: 32px;
 
 }
 
-
+.logo {
+    border: 2px solid #B0FF94;
+    background-color: #B0FF94;
+    color: #000;
+}
 
 form {
     font-size: 30px;
@@ -200,18 +206,24 @@ legend {
     height: 1211px;
     padding: 81px 76px 270px 76px;
     flex-direction: row;
-    align-content: space-between;
+    align-content: center;
 }
 
 .item {
     width: 268px;
     height: 408px;
+    margin: auto auto;
+    margin-bottom: 40px;
+    font-size: 50px;
+    border: 8px solid #B0FF94;
+    border-radius: 10px;
+    border-width: 10px;
 }
 
 .rectangle {
     width: 268px;
     height: 245px;
-    border-bottom: 5px solid #B0FF94;
+    border-bottom: 8px solid #B0FF94;
     background: #FFF;
 }
 
@@ -221,39 +233,42 @@ legend {
     background: #FC58FF;
     color: #000;
     font-family: Inter;
-    font-size: 14px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 footer {
-    border-top: 5px solid #B0FF94;
-    display: flex;
-    width: 1440px;
-    height: 158px;
+    border-top: 5px solid #FC58FF;
+    width: auto;
+    height: auto;
     padding: 10px;
-    align-items: flex-start;
-    gap: 10px;
 }
 
 .info {
-    width: 620px;
-    height: 72px;
+    width: 1440px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 .menu {
-    width: 93px;
-    height: 69px;
+    margin: auto;
 }
 
 .contact {
-    width: 204px;
-    height: 71px;
+    margin: auto;
 }
 
 .politic {
-    width: 249px;
-    height: 44px;
+    margin: auto;
 }
 
+footer ul {
+    font-size: 10px;
+    text-align: center;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+}
