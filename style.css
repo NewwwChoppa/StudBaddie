@@ -16,9 +16,10 @@ ul {
 display: flex;
 font-size: 25px;
 flex-direction: row;
+text-align: center;
+padding-left: 0px;
 justify-content: space-around;
-align-items: flex-start;
-gap: 10px;
+gap: 20px;
 color: white;
 color:#FC58FF;
 list-style: none;
@@ -271,4 +272,56 @@ footer ul {
     color: gray;
     display: flex;
     flex-direction: column;
+}
+
+.myorder {
+    color: #B0FF94;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main_block1 {
+    color: #FC58FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:  50px;
+    gap: 30px;
+    color: black;
+    width: 1107px;
+    height: 185px;
+    background-color: #FC58FF;
+    padding: 20px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    border-radius:9px;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+}
+
+.order_name {
+    font-size: 40px;
+}
+
+.order_deadline {
+    font-size: 15px;
+    margin: 30px;
+}
+
+.part2 {
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
 }
