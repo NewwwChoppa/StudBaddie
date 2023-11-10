@@ -213,7 +213,7 @@ legend {
     max-width: 1440px;
     width: 1288px;
     height: 1211px;
-    padding: 81px 76px 270px 76px;
+    padding: 10px 10px 10px 10px;
     flex-direction: row;
     align-content: center;
 }
@@ -224,7 +224,7 @@ legend {
     margin: auto auto;
     margin-bottom: 40px;
     font-size: 50px;
-    border: 8px solid #B0FF94;
+
     border-radius: 10px;
     border-width: 10px;
 }
@@ -232,20 +232,30 @@ legend {
 .rectangle {
     width: 268px;
     height: 245px;
-    border-bottom: 8px solid #B0FF94;
-    background: #FFF;
+    background:#FC58FF;
+    border-radius: 24px 24px 0 0;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
 }
 
 .text {
     width: 268px;
     height: 162px;
     background: #FC58FF;
-    color: #000;
+    color: #FFF;
     font-family: Inter;
-    font-size: 25px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    border-radius: 0px 0px 24px 24px;
 }
 
 footer {
@@ -366,4 +376,12 @@ button {
 .send_button > .send{
     text-decoration: none;
     color: #000;
+}
+
+.mini-picture {
+    width: 65%;
+    height: 65%;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
 }
