@@ -4,65 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="vhod_style.css">
+    <link rel="stylesheet" href="headerAndFooter.css".css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li class="logo"><a href="index_1.html">LOGO</a></li>
-                <li><a href="index.html">Каталог</a></li>
-                <li><a href="index_2.html">Мои заказы</a></li>
-                <li>Отзывы</li>
-                <li>Вход</li>
+                <li class="logo"><a href="index.html">LOGO</a></li>
+                <li><a href="Catalog.html">Каталог</a></li>
+                <li><a href="MyOrders.html">Мои заказы</a></li>
+                <li><a href="Rewievs.html">Отзывы</a></li>
+                <li><a href="vhod.html">Вход</a></li>
             </ul>
         </nav>
     </header>
     <br>
 
 
-    <div class="myorder"><h1>Мои заказы</h1></div>
-    <div class="main-block1">
-        <div class="item1">
-            <form> 
-                <legend>Вход</legend>
-                <label for="name">Имя пользователя</label>
-                <br>
-                <input type="text" id="name" name="name" required size="30" />
-                <br><br>
-                <label for="phone">Пароль</label>
-                <input type="tel" id="phone" name="phone" required size="30">
-                <br><br>
-                <a class="send_button" href="#"><div class="send">Войти</div></a>
-                <a class="send_button" href="#"><div class="send">Зарегестрироваться</div></a>
-            </form>
-        </div>
+    <section class="main_section">
+        <form> 
+            <legend>Вход</legend>
+            <div class="inputs">
+                <label for="login">Имя пользователя</label>
+                <input type="text" id="login" name="login" required size="30" />
+                <label for="password">Пароль</label>
+                <input type="text" id="password" name="password" required size="30">
+            </div>
+            <a class="send_button vhod" href="#"><div class="send">Войти</div></a>
+            <a class="send_button register" href="#"><div class="send">Зарегестрироваться</div></a>
+        </form>
+    </section>
 
 
     <footer>
         <div class="info">
-            <div class="menu">
-                <ul>
-                    <li>Каталог</li>
-                    <li>Мои заказы</li>
-                    <li>Отзывы</li>
-                </ul>
-            </div>
-            <div class="contact">
-                <ul>
-                    <li>Телефон: +7(999)1234567</li>
-                    <li>Почта: example@mail.ru</li>
-                    <li>Соцсети: лого лого</li>
-                </ul>
-            </div>
-            <div class="politic">
-                <ul>
-                    <li>Пользовательское соглашение</li>
-                    <li>Политика конфиденциальности</li>
-                </ul>
-            </div>
-        </div>
+            <ul>
+                <li>Каталог</li>
+                <li>Мои заказы</li>
+                <li>Отзывы</li>
+            </ul>
+        
+            <ul>
+                <li>Телефон: +7(999)1234567</li>
+                <li>Почта: example@mail.ru</li>
+                <li>Соцсети: <img src="/img/icons8-vk-48.png" alt=""> <img src="/img/icons8-viber-24.png" alt=""></li>
+            </ul>
+
+    
+            <ul>
+                <li>Пользовательское соглашение</li>
+                <li>Политика конфиденциальности</li>
+            </ul>
+        
+        
+            <ul>
+                <li><img src="img/kitty.png" alt="kitty" class="kitty"></li>
+            </ul>
+        </div>  
     </footer>
-</div>
 </body>
 </html>
